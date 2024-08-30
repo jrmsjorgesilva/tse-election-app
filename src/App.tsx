@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import "./App.css";
 import axios from "axios";
+import AppRouter from "./router/AppRouter";
 
 const endPointLocaisVotacao = `https://apps.tre-rj.jus.br/api-dados-abertos/locaisvotacao`;
 const endPointZonas = `https://apps.tre-rj.jus.br/api-dados-abertos/zonas`;
@@ -27,7 +28,7 @@ function App() {
 
   return (
     <>
-      <h1>TSE App | Eleições Municipais 2024</h1>
+      <AppRouter />
     </>
   );
 }
