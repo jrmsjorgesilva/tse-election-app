@@ -4,3 +4,31 @@
   padding: 2rem;
   text-align: center;
 }
+
+
+label {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  max-width: 500px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: 30px;
+  margin: 10px auto;
+}
+
+.btn-add {
+  color: antiquewhite;
+  background-color: aqua;
+  margin: 10px 5px;
+  padding: 20px 30px;
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid rgb(36, 230, 230);
+  cursor: pointer;
+}
